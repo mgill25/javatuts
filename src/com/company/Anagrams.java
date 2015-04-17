@@ -15,7 +15,9 @@ public class Anagrams {
         Map<String, List<String>> m = new HashMap<String, List<String>>();
 
         try {
-            Scanner s = new Scanner(new File(args[0]));
+            File file = new File(args[0]);
+            Scanner s = new Scanner(file);
+
             while (s.hasNext()) {
                 String word = s.next();
                 String alpha = alphabetize(word);
