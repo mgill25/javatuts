@@ -14,6 +14,8 @@ package com.company;
  * When not to use ByteStreams:
  *  CopyBytes actually represents a low-level operation that should be avoided.
  *  Since xanadu.txt contains character bytes, the best approach would be to use *character streams*.
+ *  They will require classes FileReader and FileWriter instead of FileInputStream and FileOutputStream.
+ *  Similarly, in order to do line-based streams, BufferedReader and PrintWriter can be used.
  *  There are also streams for more complicated data types.
  *
  *  Byte Streams should be only used for the  most primitive I/O operations.
