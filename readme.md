@@ -2,6 +2,7 @@ Learning Java all over again
 ----------------------------
 
 Things to grok:
+
     - Classes
     - Anonymous, Local, Inner classes
     - Interfaces
@@ -12,12 +13,14 @@ Things to grok:
     - Call by value/call by reference thingies
     
 Essential Classes
+
     - Exceptions
     - Basic I/O
         - java.io
         - java.nio
 
 Advance Stuff
+
     - Networking
     - Reflection
     - Swing
@@ -28,7 +31,9 @@ Advance Stuff
     - SDP (Socket Direct Protocol)
 
 Libraries
+
     - Square: https://square.github.io/
+    
         - Retrofit: https://square.github.io/retrofit/
         - Otto: https://square.github.io/otto/
         - Dagger: https://square.github.io/dagger/ 
